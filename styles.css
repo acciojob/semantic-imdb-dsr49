@@ -1,2 +1,32 @@
-
-/* Your CSS Code here. */
+ h1{
+            text-align: center;
+        }
+        aside{
+            float: right;
+            box-sizing: border-box;
+            border: 2px solid red;
+            padding: 25px;
+            position: static; 
+        }
+        summary , section, footer{
+            width: 500px;
+            box-sizing: border-box;
+            border: 2px solid red;
+            padding: 25px;
+        }
+/* Your CSS Code here. */ h1{
+            text-align: center;
+        }
+        aside{
+            float: right;
+            box-sizing: border-box;
+            border: 2px solid red;
+            padding: 25px;
+            position: static; 
+        }
+        summary , section, footer{
+            width: 500px;
+            box-sizing: border-box;
+            border: 2px solid red;
+            padding: 25px;
+        }
