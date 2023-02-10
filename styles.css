@@ -1,32 +1,33 @@
- h1{
+header{
             text-align: center;
+            text-decoration: underline;
         }
-        aside{
-            float: right;
-            box-sizing: border-box;
-            border: 2px solid red;
-            padding: 25px;
-            position: static; 
-        }
-        summary , section, footer{
-            width: 500px;
-            box-sizing: border-box;
-            border: 2px solid red;
-            padding: 25px;
-        }
-/* Your CSS Code here. */ h1{
+        nav{
             text-align: center;
+
         }
-        aside{
-            float: right;
-            box-sizing: border-box;
-            border: 2px solid red;
-            padding: 25px;
-            position: static; 
+        nav ul li{
+            display: inline-block;
+            Margin-left:  5px;
+            Margin-right:  45px;
+            padding: 10px;
+            background-color: rgb(86, 0, 0);
+            background:  linear-gradient( rgb(86, 0, 0)
+ 0%, rgba(255,255,255,0) 30%);
+ border-radius: 50px;
+ border-radi
+
+
         }
-        summary , section, footer{
-            width: 500px;
-            box-sizing: border-box;
-            border: 2px solid red;
-            padding: 25px;
+
+        summary , section, aside, footer{
+            text-align: center;
+            padding-block: 20px ;
+            /* border: 2px red solid; */
+            background-color: rgb(86, 0, 0);
+            border-radius: 50px;
+            background:  linear-gradient( rgb(86, 0, 0)
+ 0%, rgba(255,255,255,0) 30%);
+            margin-bottom: 50px;
+
         }
